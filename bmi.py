@@ -117,7 +117,7 @@ try:
     canvas = tk.Tk()
     canvas.title("BMI Calculator")
     canvas.geometry("400x100")
-    canvas.iconbitmap(r'C:\Users\Utilizador\PycharmProjects\bmi calculator\bmi_image.ico')
+    
     label_kg = tk.Label(canvas, text="Weight(kg): ")
     label_kg.grid(column=0, row=0)
     entry_kg = tk.Entry(canvas)
